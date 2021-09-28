@@ -23,7 +23,7 @@ function circle(mousex,mousey)
 {
 
     ctx.beginPath();
-ctx.strokesStyle=color
+ctx.strokeStyle=color
 ctx.lineWidth=5
 ctx.arc(mousex,mousey,40,0,2*Math.PI);
 ctx.stroke();
